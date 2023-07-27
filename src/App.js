@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+// Packages
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Style CSS
 import './App.css';
+import './styles/One.css';
+
+// Components
+import OneNavbar from './components/OneNavbar';
+import OnePro from './components/OneMain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <OneNavbar />
+              <OnePro />
+            </>
+          } />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

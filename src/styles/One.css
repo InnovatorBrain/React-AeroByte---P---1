@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text,
+.nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+
+/* Main */
+main {
+  padding: 57px 27px;
+  font-family: Inter, sans-serif;
+  color: white;
+  background-image: url(../assets/logoBackground.png);
+  background-repeat: no-repeat;
+  background-position: right 60%;
+}
+
+.main--title {
+  margin: 0;
+}
+
+.listClass {
+  line-height: 19px;
+  max-width: 400px;
+}
+
+.listClass>li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.listClass > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
