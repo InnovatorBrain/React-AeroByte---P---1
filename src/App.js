@@ -10,21 +10,24 @@ import './styles/One.css';
 import OneNavbar from './components/OneNavbar';
 import OnePro from './components/OneMain';
 
-function App() {
+const App = () => {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={
-            <>
-              <OneNavbar />
-              <OnePro />
-            </>
-          } />
+          <Route
+            path=''
+            element={
+              <>
+                <OneNavbar />
+                <OnePro />
+              </>
+            }
+          />
         </Routes>
       </Router>
     </>
   );
-}
+};
 
 export default App;

@@ -5,9 +5,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #282D35;
-
-
+  background-color: #282D35; 
 }
 
 nav {
@@ -37,12 +35,13 @@ nav {
 }
 
 .nav--icon {
-  height: 30px;
+  height: 60px;
   margin-right: 7px;
 }
 
 
 /* Main */
+
 main {
   padding: 57px 27px;
   font-family: Inter, sans-serif;

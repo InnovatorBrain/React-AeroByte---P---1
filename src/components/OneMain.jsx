@@ -3,13 +3,13 @@ import React from 'react'
 const OneMain = () => {
   return (
     <main>
-      <h1 className='main--title'>Fun facts about React</h1>
+      <h1 className='main--title'>Interesting tidbits about Python</h1>
       <ul className='listClass'>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100K stars on GitHub</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
+        <li>Was first conceived in the late 1980s</li>
+        <li>Was created by Guido van Rossum</li>
+        <li>Has a comprehensive standard library</li>
+        <li>Is loved by developers for its readability</li>
+        <li>Empowers diverse applications, from web development to scientific computing</li>
       </ul>
     </main>
   )
